@@ -1,2 +1,2 @@
-* linguist-vendored
-*.rb linguist-language=HTML
+mvnw.cmd linguist-generated=true
+mvnw linguist-generated=true
