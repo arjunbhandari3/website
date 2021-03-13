@@ -573,7 +573,8 @@ body.offcanvas {
   border-bottom: 2px solid #2c98f0; }
   .services .icon2 {
 	display: block;
-	margin-bottom: 20px; }
+	margin-bottom: 20px; 
+text-align: center;}
 	.services .icon2 i {
 	  font-size: 30px;
 	  color: #2c98f0; }
