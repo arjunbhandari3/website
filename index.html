@@ -543,7 +543,7 @@
 								<div class="col-md-7 col-md-push-1">
 									<div class="contact-form col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
 										<div id="form-messages"></div>
-										<form class="needs-validation" id="ajax-contact" validate name=”EmailForm” netlify>
+										<form class="needs-validation" id="ajax-contact" method="POST" data-netlify="true" validate name=”EmailForm” netlify>
 											<div class="col-xs-12 ">
 												<div class="form-group">
 													<input type="text" name="name" class="form-control" placeholder="Your Name"
@@ -564,7 +564,7 @@
 											</div>
 											<div class="col-xs-12 ">
 												<div class="form-group">
-													<textarea name="body" id="message" class="form-control" rows="8"
+													<textarea name="message" id="message" class="form-control" rows="8"
 														placeholder="Your Message" required></textarea>
 												</div>
 											</div>
