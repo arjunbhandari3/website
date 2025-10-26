@@ -574,6 +574,124 @@ body.offcanvas .arjun-nav-toggle {
   }
 }
 
+/* ===== Hero Section ===== */
+#arjun-hero {
+  position: relative;
+}
+
+#arjun-hero .flexslider .slides li {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#arjun-hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.gradient-overlay {
+  background: linear-gradient(
+    120deg,
+    rgba(44, 152, 240, 0.4),
+    rgba(0, 0, 0, 0.6)
+  );
+}
+
+/* Flex alignment for vertical centering */
+.slider-text-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  padding: 0 3em;
+  text-align: left;
+}
+
+.slider-text-inner .desc {
+  max-width: 600px;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+
+.hero-title span {
+  color: #f9bf3f;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff !important;
+  margin-bottom: 30px;
+  line-height: 1.6em;
+  opacity: 0.95;
+}
+
+.btn-hero {
+  background: #2c98f0;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-hero i {
+  margin-right: 6px;
+}
+
+.btn-hero:hover {
+  background: #ec5453;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .slider-text-inner {
+    padding: 0 2em;
+  }
+  .hero-title {
+    font-size: 42px;
+  }
+  .hero-subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-text-inner {
+    align-items: center; /* Center horizontally on small screens */
+    text-align: center;
+    padding: 0 1.5em;
+  }
+  .hero-title {
+    font-size: 34px;
+  }
+  .hero-subtitle {
+    font-size: 15px;
+  }
+  .btn-hero {
+    font-size: 13px;
+    padding: 10px 22px;
+  }
+}
+
 .heading-meta {
   margin-bottom: 15px;
   display: block;
@@ -595,6 +713,230 @@ body.offcanvas .arjun-nav-toggle {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500;
+}
+
+/* ===== About Section ===== */
+.arjun-about {
+  padding: 6em 0 5em;
+  background: #fff;
+}
+
+.arjun-about .heading-meta {
+  display: inline-block;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #999;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.arjun-about .arjun-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2c98f0;
+  margin-bottom: 25px;
+}
+
+.about-desc p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.8em;
+  margin-bottom: 18px;
+}
+
+.about-desc strong {
+  color: #222;
+}
+
+.about-services {
+  margin-top: 3em;
+}
+
+.services-card {
+  background: #fff;
+  padding: 2em 1em;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.services-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(44, 152, 240, 0.15);
+}
+
+.services-card .icon2 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #2c98f0;
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.services-card:hover .icon2 {
+  background: #ec5453;
+  transform: rotate(10deg);
+}
+
+.services-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Color Variants */
+.services-card.color-1 .icon2 {
+  background: #2c98f0;
+}
+.services-card.color-2 .icon2 {
+  background: #ec5453;
+}
+.services-card.color-3 .icon2 {
+  background: #f9bf3f;
+}
+.services-card.color-4 .icon2 {
+  background: #a84cb8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .arjun-about {
+    padding: 4em 1em;
+  }
+  .arjun-about .arjun-heading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-card {
+    margin-bottom: 1.5em;
+  }
+}
+
+/* ===== Services Section ===== */
+.arjun-services {
+  padding: 6em 0 5em;
+  background: #f9f9ff;
+}
+
+.arjun-services .heading-meta {
+  display: block;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #999;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.arjun-services .arjun-heading {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2c98f0;
+  margin-bottom: 20px;
+}
+
+.section-intro {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.8em;
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.service-card {
+  background: #fff;
+  padding: 2em 1.5em;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  margin-bottom: 2em;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(44, 152, 240, 0.2);
+}
+
+.service-card .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover .icon {
+  transform: scale(1.1);
+}
+
+.service-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.7em;
+}
+
+/* Color Variants */
+.service-card.color-1 .icon {
+  background: #2c98f0;
+}
+.service-card.color-2 .icon {
+  background: #ec5453;
+}
+.service-card.color-3 .icon {
+  background: #f9bf3f;
+}
+.service-card.color-4 .icon {
+  background: #a84cb8;
+}
+.service-card.color-5 .icon {
+  background: #2fa499;
+}
+.service-card.color-6 .icon {
+  background: #4054b2;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .service-card {
+    min-height: 240px;
+  }
+  .arjun-services .arjun-heading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    margin-bottom: 1.5em;
+  }
 }
 
 .fancy-collapse-panel .panel-default > .panel-heading {
@@ -810,6 +1152,198 @@ body.offcanvas .arjun-nav-toggle {
 }
 .services.color-6 .icon:after {
   border-color: #4054b2 transparent transparent transparent;
+}
+
+/* ===== Skills Section ===== */
+.arjun-skills {
+  background: #f9fafb;
+  padding: 6em 0;
+}
+
+.skill-card {
+  background: #fff;
+  padding: 1.8em 1.5em;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border-left: 4px solid #2c98f0;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border-left-color: #ec5453;
+}
+
+.skill-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.skill-card h3 i {
+  color: #2c98f0;
+  font-size: 18px;
+}
+
+.skill-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+  line-height: 1.6em;
+}
+
+@media (max-width: 768px) {
+  .skill-card {
+    padding: 1.5em 1em;
+  }
+}
+
+/* ===== Education Section ===== */
+.arjun-education {
+  padding: 6em 0 5em;
+  background: #fff;
+}
+
+.arjun-education .heading-meta {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #999;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.arjun-education .arjun-heading {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2c98f0;
+  margin-bottom: 10px;
+}
+
+.section-intro {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.8em;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.education-timeline {
+  position: relative;
+  margin-top: 2em;
+  border-left: 3px solid #2c98f0;
+  padding-left: 25px;
+}
+
+.edu-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.edu-item::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #2c98f0;
+  box-shadow: 0 0 0 4px rgba(44, 152, 240, 0.1);
+}
+
+.edu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9ff;
+  padding: 1.2em 1.5em;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.edu-header:hover {
+  background: #eef6ff;
+  transform: translateY(-3px);
+}
+
+.edu-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #2c98f0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.edu-title {
+  flex: 1;
+}
+
+.edu-title h4 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.edu-title span {
+  font-size: 14px;
+  color: #888;
+}
+
+.toggle-icon {
+  font-size: 16px;
+  color: #888;
+  transition: transform 0.3s ease;
+}
+
+.edu-item.active .toggle-icon {
+  transform: rotate(180deg);
+  color: #2c98f0;
+}
+
+.edu-body {
+  padding: 1em 2em 0.5em 3.5em;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.7em;
+}
+
+.edu-body strong {
+  color: #222;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .education-timeline {
+    padding-left: 20px;
+  }
+
+  .edu-body {
+    padding: 0.8em 1em 0.5em 2.5em;
+  }
+
+  .edu-header {
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+
+  .edu-title h4 {
+    font-size: 16px;
+  }
 }
 
 .progress-wrap h3 {

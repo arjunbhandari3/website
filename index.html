@@ -129,26 +129,31 @@
           <section id="arjun-hero" class="js-fullheight" data-section="home">
             <div class="flexslider js-fullheight">
               <ul class="slides">
+                <!-- Slide 1 -->
                 <li style="background-image: url(../public/images/cover_1.jpg)">
-                  <div class="overlay"></div>
+                  <div class="overlay gradient-overlay"></div>
                   <div class="container-fluid">
                     <div class="row">
                       <div
-                        class="col-md-9 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                        <div class="slider-text-inner js-fullheight">
+                        class="col-md-12 col-sm-12 js-fullheight slider-text">
+                        <div
+                          class="slider-text-inner js-fullheight animate-box"
+                          data-animate-effect="fadeInLeft">
                           <div class="desc">
-                            <h1>Hi! <br />I'm Arjun</h1>
-                            <h2>
-                              AWS Certified Solutions Architect with 5+ years’
-                              experience
+                            <h1 class="hero-title">
+                              Hi, I'm <span>Arjun</span>
+                            </h1>
+                            <h2 class="hero-subtitle">
+                              AWS Certified Solutions Architect with 5+ years of
+                              experience in scalable app development.
                             </h2>
                             <p>
                               <a
-                                class="btn btn-primary"
+                                class="btn btn-primary btn-hero"
                                 href="../public/Arjun_Bhandari_Resume.pdf"
-                                download="Arjun's CV.pdf"
-                                >Download CV <i class="fa fa-download"></i
-                              ></a>
+                                download="Arjun_Bhandari_CV.pdf">
+                                <i class="fa fa-download"></i> Download CV
+                              </a>
                             </p>
                           </div>
                         </div>
@@ -156,26 +161,33 @@
                     </div>
                   </div>
                 </li>
+
+                <!-- Slide 2 -->
                 <li style="background-image: url(../public/images/cover_2.jpg)">
-                  <div class="overlay"></div>
+                  <div class="overlay gradient-overlay"></div>
                   <div class="container-fluid">
                     <div class="row">
                       <div
-                        class="col-md-9 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                        <div class="slider-text-inner">
+                        class="col-md-12 col-sm-12 js-fullheight slider-text">
+                        <div
+                          class="slider-text-inner animate-box"
+                          data-animate-effect="fadeInLeft">
                           <div class="desc">
-                            <h1>I'm <br />Sr. Software Engineer</h1>
-                            <h2>
-                              Experienced in JS | TS | Flutter | Python | AWS
+                            <h1 class="hero-title">
+                              I'm a <span>Senior Software Engineer</span>
+                            </h1>
+                            <h2 class="hero-subtitle">
+                              Specialized in JS, TS, Flutter, Python, and AWS —
+                              building reliable, scalable systems.
                             </h2>
                             <p>
                               <a
                                 href="#"
                                 data-nav-section="contact"
                                 role="navigation"
-                                class="btn btn-primary"
-                                >Contact Me <i class="fa fa-phone"></i
-                              ></a>
+                                class="btn btn-primary btn-hero">
+                                <i class="fa fa-phone"></i> Contact Me
+                              </a>
                             </p>
                           </div>
                         </div>
@@ -195,66 +207,81 @@
                     class="row row-bottom-padded-sm animate-box"
                     data-animate-effect="fadeInLeft">
                     <div class="col-md-12">
-                      <div class="about-desc">
+                      <div class="about-desc text-left">
                         <span class="heading-meta">About Me</span>
                         <h1 class="arjun-heading">Who Am I?</h1>
                         <p>
-                          Hi I'm<strong> Arjun Bhandari</strong>. AWS Certified
-                          Solutions Architect with 5 years’ experience in
-                          scalable web and mobile apps using TypeScript,
-                          Node.js, React, Flutter, and AWS. Skilled in
-                          REST/GraphQL APIs, microservices, and cloud-native
-                          design. Delivered HIPAA-compliant healthcare platforms
-                          and integrated Generative AI (OpenAI, LangChain, RAG).
-                          Strong in Agile, performance optimization, and
-                          end-to-end delivery.
+                          Hi, I'm <strong>Arjun Bhandari</strong>, an AWS
+                          Certified Solutions Architect with over 5 years of
+                          experience building scalable web and mobile
+                          applications using <strong>TypeScript</strong>,
+                          <strong>Node.js</strong>, <strong>React</strong>,
+                          <strong>Flutter</strong>, and <strong>AWS</strong>. I
+                          specialize in <strong>REST/GraphQL APIs</strong>,
+                          <strong>microservices</strong>, and
+                          <strong>cloud-native architecture</strong>. I’ve
+                          delivered HIPAA-compliant healthcare platforms and
+                          integrated Generative AI solutions using
+                          <strong>OpenAI APIs, LangChain, and RAG</strong>.
                         </p>
                         <p>
-                          I work on R & D projects, manage and deploy software
-                          applications, and integrate project management
-                          methodologies for software development.
+                          I lead R&D projects, manage software deployments, and
+                          apply modern project management methodologies to
+                          ensure smooth end-to-end delivery.
                         </p>
                         <p>
-                          My areas of interest are Web Development, Mobile App
-                          Development, AI and AWS. If you would like more
-                          detailed information about me, you can download and
-                          view my CV.
+                          My interests include <strong>Web Development</strong>,
+                          <strong>Mobile Apps</strong>, <strong>AI</strong>, and
+                          <strong>Cloud Engineering</strong>. Want to learn
+                          more? Feel free to download my CV below.
+                        </p>
+                        <p>
+                          <a
+                            class="btn btn-primary btn-hero"
+                            href="../public/Arjun_Bhandari_Resume.pdf"
+                            download="Arjun_Bhandari_CV.pdf">
+                            <i class="fa fa-download"></i> Download CV
+                          </a>
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div class="row">
+
+                  <!-- Services / Highlights -->
+                  <div class="row about-services">
                     <div
-                      class="col-md-3 animate-box"
+                      class="col-md-3 col-sm-6 animate-box"
                       data-animate-effect="fadeInLeft">
-                      <div class="services color-1">
-                        <span class="icon2"><i class="icon-bulb"></i></span>
+                      <div class="services-card color-1">
+                        <span class="icon2"
+                          ><i class="fa fa-lightbulb-o"></i
+                        ></span>
                         <h3>Design & Discovery</h3>
                       </div>
                     </div>
                     <div
-                      class="col-md-3 animate-box"
+                      class="col-md-3 col-sm-6 animate-box"
                       data-animate-effect="fadeInRight">
-                      <div class="services color-2">
-                        <span class="icon2"
-                          ><i class="icon-globe-outline"></i
-                        ></span>
+                      <div class="services-card color-2">
+                        <span class="icon2"><i class="fa fa-code"></i></span>
                         <h3>Software Development</h3>
                       </div>
                     </div>
                     <div
-                      class="col-md-3 animate-box"
-                      data-animate-effect="fadeInTop">
-                      <div class="services color-3">
-                        <span class="icon2"><i class="icon-data"></i></span>
+                      class="col-md-3 col-sm-6 animate-box"
+                      data-animate-effect="fadeInUp">
+                      <div class="services-card color-3">
+                        <span class="icon2"
+                          ><i class="fa fa-database"></i
+                        ></span>
                         <h3>Database Management</h3>
                       </div>
                     </div>
                     <div
-                      class="col-md-3 animate-box"
-                      data-animate-effect="fadeInBottom">
-                      <div class="services color-4">
-                        <span class="icon2"><i class="icon-phone3"></i></span>
+                      class="col-md-3 col-sm-6 animate-box"
+                      data-animate-effect="fadeInDown">
+                      <div class="services-card color-4">
+                        <span class="icon2"><i class="fa fa-mobile"></i></span>
                         <h3>Application Management</h3>
                       </div>
                     </div>
@@ -267,95 +294,101 @@
           <section class="arjun-services" data-section="services">
             <div class="arjun-narrow-content">
               <div class="row">
-                <div
-                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-                  data-animate-effect="fadeInLeft">
-                  <span class="heading-meta">What I do?</span>
-                  <h2 class="arjun-heading">Here are some of my expertise</h2>
+                <div class="col-md-12">
+                  <div
+                    class="row row-bottom-padded-sm animate-box"
+                    data-animate-effect="fadeInLeft">
+                    <div class="col-md-12">
+                      <div class="about-desc text-left">
+                        <span class="heading-meta">What I Do</span>
+                        <h1 class="arjun-heading">My areas of expertise</h1>
+                        <p>
+                          I combine creativity, engineering, and cloud expertise
+                          to design, develop, and deliver scalable solutions —
+                          from concept to production.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+
               <div class="row row-pt-md">
-                <div class="col-md-4 text-center animate-box">
-                  <div class="services color-1">
-                    <span class="icon">
-                      <i class="fa fa-lightbulb-o"></i>
-                    </span>
-                    <div class="desc">
-                      <h3>Innovative Ideas</h3>
-                      <p>
-                        Discover a creative way in finding and solving a problem
-                      </p>
-                    </div>
+                <div
+                  class="col-md-4 col-sm-6 text-center animate-box"
+                  data-animate-effect="fadeInUp">
+                  <div class="service-card color-1">
+                    <span class="icon"><i class="fa fa-lightbulb-o"></i></span>
+                    <h3>Innovative Ideas</h3>
+                    <p>
+                      Discover creative and efficient ways to identify and solve
+                      technical challenges.
+                    </p>
                   </div>
                 </div>
-                <div class="col-md-4 text-center animate-box">
-                  <div class="services color-2">
-                    <span class="icon">
-                      <i class="fa fa-television"></i>
-                    </span>
-                    <div class="desc">
-                      <h3>Software</h3>
-                      <p>
-                        Develop an enterprise-level software solution as per the
-                        requirement
-                      </p>
-                    </div>
+
+                <div
+                  class="col-md-4 col-sm-6 text-center animate-box"
+                  data-animate-effect="fadeInUp">
+                  <div class="service-card color-2">
+                    <span class="icon"><i class="fa fa-code"></i></span>
+                    <h3>Software Development</h3>
+                    <p>
+                      Build high-performance web and mobile applications
+                      tailored to business needs.
+                    </p>
                   </div>
                 </div>
-                <div class="col-md-4 text-center animate-box">
-                  <div class="services color-3">
-                    <span class="icon">
-                      <i class="icon-phone3"></i>
-                    </span>
-                    <div class="desc">
-                      <h3>Application</h3>
-                      <p>
-                        Create mobile-based software applications with
-                        interactive design
-                      </p>
-                    </div>
+
+                <div
+                  class="col-md-4 col-sm-6 text-center animate-box"
+                  data-animate-effect="fadeInUp">
+                  <div class="service-card color-3">
+                    <span class="icon"><i class="fa fa-mobile"></i></span>
+                    <h3>Application Design</h3>
+                    <p>
+                      Create engaging and user-friendly mobile experiences
+                      across platforms.
+                    </p>
                   </div>
                 </div>
-                <div class="col-md-4 text-center animate-box">
-                  <div class="services color-4">
-                    <span class="icon">
-                      <i class="icon-layers2"></i>
-                    </span>
-                    <div class="desc">
-                      <h3>Cloud Deployment</h3>
-                      <p>
-                        Deploy software solutions on cloud in different cloud
-                        service platforms
-                      </p>
-                    </div>
+
+                <div
+                  class="col-md-4 col-sm-6 text-center animate-box"
+                  data-animate-effect="fadeInUp">
+                  <div class="service-card color-4">
+                    <span class="icon"><i class="fa fa-cloud"></i></span>
+                    <h3>Cloud Deployment</h3>
+                    <p>
+                      Deploy scalable and secure solutions across AWS and other
+                      cloud providers.
+                    </p>
                   </div>
                 </div>
-                <div class="col-md-4 text-center animate-box">
-                  <div class="services color-5">
-                    <span class="icon">
-                      <i class="icon-data"></i>
-                    </span>
-                    <div class="desc">
-                      <h3>Architect Solutions</h3>
-                      <p>
-                        Determine the best practices required to architect
-                        software on the cloud
-                      </p>
-                    </div>
+
+                <div
+                  class="col-md-4 col-sm-6 text-center animate-box"
+                  data-animate-effect="fadeInUp">
+                  <div class="service-card color-5">
+                    <span class="icon"><i class="fa fa-sitemap"></i></span>
+                    <h3>Solution Architecture</h3>
+                    <p>
+                      Design cloud-native architectures with best practices and
+                      performance optimization.
+                    </p>
                   </div>
                 </div>
-                <div class="col-md-4 text-center animate-box">
-                  <div class="services color-6">
-                    <span class="icon">
-                      <i class="icon-layers2"></i>
-                    </span>
-                    <div class="desc">
-                      <h3>Team Management</h3>
-                      <p>
-                        Work in a Team, and use Agile methodology for software
-                        development
-                      </p>
-                    </div>
+
+                <div
+                  class="col-md-4 col-sm-6 text-center animate-box"
+                  data-animate-effect="fadeInUp">
+                  <div class="service-card color-6">
+                    <span class="icon"><i class="fa fa-users"></i></span>
+                    <h3>Team Management</h3>
+                    <p>
+                      Lead and mentor cross-functional teams using Agile and
+                      iterative methodologies.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -417,8 +450,8 @@
                 <div
                   class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                   data-animate-effect="fadeInLeft">
-                  <span class="heading-meta">My Specialty</span>
-                  <h2 class="arjun-heading animate-box">My Skills</h2>
+                  <span class="heading-meta">Skills</span>
+                  <h2 class="arjun-heading animate-box">Technical Expertise</h2>
                 </div>
               </div>
               <div class="row">
@@ -426,260 +459,67 @@
                   class="col-md-12 animate-box"
                   data-animate-effect="fadeInLeft">
                   <p>
-                    As a Full Stack Developer, I have skills in the following
-                    specialties:
+                    A blend of hands-on experience across full-stack
+                    development, mobile, cloud, and AI/ML technologies.
                   </p>
                 </div>
+
                 <div
                   class="col-md-6 animate-box"
                   data-animate-effect="fadeInLeft">
-                  <div class="progress-wrap">
-                    <h3>JavaScript</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-1"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 95%">
-                        <span>95%</span>
-                      </div>
-                    </div>
+                  <div class="skill-card">
+                    <h3><i class="fa fa-code"></i> Languages</h3>
+                    <p>JavaScript, TypeScript, Python, Dart, C/C++</p>
+                  </div>
+
+                  <div class="skill-card">
+                    <h3><i class="fa fa-desktop"></i> Frontend</h3>
+                    <p>
+                      React, Next.js, HTML5, CSS3, Tailwind, MUI, AntD,
+                      Bootstrap
+                    </p>
+                  </div>
+
+                  <div class="skill-card">
+                    <h3><i class="fa fa-server"></i> Backend</h3>
+                    <p>
+                      Node.js, Express, NestJS, REST, GraphQL, Microservices
+                    </p>
+                  </div>
+
+                  <div class="skill-card">
+                    <h3><i class="fa fa-mobile"></i> Mobile</h3>
+                    <p>Flutter, React Native</p>
                   </div>
                 </div>
+
                 <div
                   class="col-md-6 animate-box"
                   data-animate-effect="fadeInRight">
-                  <div class="progress-wrap">
-                    <h3>TypeScript</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-2"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%">
-                        <span>90%</span>
-                      </div>
-                    </div>
+                  <div class="skill-card">
+                    <h3><i class="fa fa-database"></i> Databases</h3>
+                    <p>PostgreSQL, MySQL, MongoDB, Firebase</p>
                   </div>
-                </div>
-                <div
-                  class="col-md-6 animate-box"
-                  data-animate-effect="fadeInLeft">
-                  <div class="progress-wrap">
-                    <h3>NodeJS</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-3"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%">
-                        <span>90%</span>
-                      </div>
-                    </div>
+
+                  <div class="skill-card">
+                    <h3><i class="fa fa-cloud"></i> Cloud / DevOps</h3>
+                    <p>AWS (Lambda, S3, SES, SQS), Docker</p>
                   </div>
-                </div>
-                <div
-                  class="col-md-6 animate-box"
-                  data-animate-effect="fadeInRight">
-                  <div class="progress-wrap">
-                    <h3>ReactJS</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-4"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%">
-                        <span>90%</span>
-                      </div>
-                    </div>
+
+                  <div class="skill-card">
+                    <h3><i class="fa fa-lightbulb-o"></i> AI / ML</h3>
+                    <p>
+                      LLMs, OpenAI APIs, LangChain, Pinecone, RAG, Prompt
+                      Engineering
+                    </p>
                   </div>
-                </div>
-                <div
-                  class="col-md-6 animate-box"
-                  data-animate-effect="fadeInRight">
-                  <div class="progress-wrap">
-                    <h3>Redux</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-5"
-                        role="progressbar"
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%">
-                        <span>90%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-6 animate-box"
-                  data-animate-effect="fadeInLeft">
-                  <div class="progress-wrap">
-                    <h3>AWS</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-6"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 80%">
-                        <span>80%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-6 animate-box"
-                  data-animate-effect="fadeInRight">
-                  <div class="progress-wrap">
-                    <h3>Flutter</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-7"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%">
-                        <span>90%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-6 animate-box"
-                  data-animate-effect="fadeInLeft">
-                  <div class="progress-wrap">
-                    <h3>Dart</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-8"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%">
-                        <span>90%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-6 animate-box"
-                  data-animate-effect="fadeInRight">
-                  <div class="progress-wrap">
-                    <h3>Python</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-1"
-                        role="progressbar"
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 80%">
-                        <span>80%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-6 animate-box"
-                  data-animate-effect="fadeInRight">
-                  <div class="progress-wrap">
-                    <h3>Django</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-2"
-                        role="progressbar"
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 80%">
-                        <span>80%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-6 animate-box"
-                  data-animate-effect="fadeInRight">
-                  <div class="progress-wrap">
-                    <h3>MongoDB</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-3"
-                        role="progressbar"
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%">
-                        <span>90%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-6 animate-box"
-                  data-animate-effect="fadeInRight">
-                  <div class="progress-wrap">
-                    <h3>PostgreSQL</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-4"
-                        role="progressbar"
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%">
-                        <span>90%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-6 animate-box"
-                  data-animate-effect="fadeInRight">
-                  <div class="progress-wrap">
-                    <h3>Firebase</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-5"
-                        role="progressbar"
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 85%">
-                        <span>80%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-6 animate-box"
-                  data-animate-effect="fadeInRight">
-                  <div class="progress-wrap">
-                    <h3>MySQL</h3>
-                    <div class="progress">
-                      <div
-                        class="progress-bar color-6"
-                        role="progressbar"
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%">
-                        <span>80%</span>
-                      </div>
-                    </div>
+
+                  <div class="skill-card">
+                    <h3><i class="fa fa-wrench"></i> Tools & Methods</h3>
+                    <p>
+                      Git, GitHub, GitLab, Bitbucket, JIRA, Slack<br />Agile,
+                      Scrum, Iterative Development
+                    </p>
                   </div>
                 </div>
               </div>
@@ -844,7 +684,9 @@
                         Issued: July 7, 2025 <br />
                         <a
                           href="https://www.credly.com/badges/eb0b9371-d45f-4a2c-b247-3c22b19c9c08"
-                          rel="noopener noreferrer" target="_blank">Verify Here</a
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          >Verify Here</a
                         >
                       </p>
                     </div>
@@ -858,149 +700,136 @@
             <div class="arjun-narrow-content">
               <div class="row">
                 <div
-                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  class="col-md-12 col-md-offset-3 col-md-pull-3 animate-box"
                   data-animate-effect="fadeInLeft">
                   <span class="heading-meta">Education</span>
-                  <h2 class="arjun-heading animate-box">Education</h2>
+                  <h2 class="arjun-heading">My Academic Journey</h2>
+                  <p>
+                    A continuous journey of learning and growth — blending
+                    computer engineering, innovation, and research.
+                  </p>
                 </div>
               </div>
+
               <div class="row">
                 <div
-                  class="col-md-12 animate-box"
-                  data-animate-effect="fadeInLeft">
-                  <div class="fancy-collapse-panel">
-                    <div
-                      class="panel-group"
-                      id="accordion"
-                      role="tablist"
-                      aria-multiselectable="true">
-                      <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingOne">
-                          <h4 class="panel-title">
-                            <a
-                              data-toggle="collapse"
-                              data-parent="#accordion"
-                              href="#collapseOne"
-                              aria-expanded="true"
-                              aria-controls="collapseOne"
-                              >Master of Engineering in Computer Engineering</a
-                            >
-                          </h4>
+                  class="col-md-12 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInUp">
+                  <div class="education-timeline">
+                    <!-- Item 1 -->
+                    <div class="edu-item active">
+                      <div
+                        class="edu-header"
+                        data-toggle="collapse"
+                        data-target="#edu1">
+                        <div class="edu-icon">
+                          <i class="fa fa-graduation-cap"></i>
                         </div>
-                        <div
-                          id="collapseOne"
-                          class="panel-collapse collapse in"
-                          role="tabpanel"
-                          aria-labelledby="headingOne">
-                          <div class="panel-body">
-                            <div class="row">
-                              <div class="col-md-12">
-                                <p>
-                                  I started my graduate level in
-                                  <strong> Kathmandu University </strong> on the
-                                  programme Master of Engineering in
-                                  <strong> Computer Engineering </strong> since
-                                  December 2024.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
+                        <div class="edu-title">
+                          <h4>Master of Engineering in Computer Engineering</h4>
+                          <span
+                            >Kathmandu University — December 2024 –
+                            Present</span
+                          >
                         </div>
+                        <i class="fa fa-chevron-down toggle-icon"></i>
                       </div>
-                      <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingTwo">
-                          <h4 class="panel-title">
-                            <a
-                              class="collapsed"
-                              data-toggle="collapse"
-                              data-parent="#accordion"
-                              href="#collapseTwo"
-                              aria-expanded="false"
-                              aria-controls="collapseTwo"
-                              >Bachelor of Engineering in Computer
-                              Engineering</a
-                            >
-                          </h4>
-                        </div>
-                        <div
-                          id="collapseTwo"
-                          class="panel-collapse collapse"
-                          role="tabpanel"
-                          aria-labelledby="headingTwo">
-                          <div class="panel-body">
-                            <div class="row">
-                              <div class="col-md-12">
-                                <p>
-                                  I completed my undergraduate level in
-                                  <strong> Kathmandu University </strong> on the
-                                  programme Bachelor of Engineering in
-                                  <strong> Computer Engineering </strong> on
-                                  March 2022.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <div id="edu1" class="edu-body collapse in">
+                        <p>
+                          Pursuing
+                          <strong
+                            >Master of Engineering in Computer
+                            Engineering</strong
+                          >
+                          at <strong>Kathmandu University</strong>, focusing on
+                          AI, distributed systems, and advanced software design.
+                        </p>
                       </div>
-                      <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
-                          <h4 class="panel-title">
-                            <a
-                              class="collapsed"
-                              data-toggle="collapse"
-                              data-parent="#accordion"
-                              href="#collapseThree"
-                              aria-expanded="false"
-                              aria-controls="collapseThree">
-                              Higher Secondary Education (+2 Science)
-                            </a>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="edu-item">
+                      <div
+                        class="edu-header"
+                        data-toggle="collapse"
+                        data-target="#edu2">
+                        <div class="edu-icon">
+                          <i class="fa fa-university"></i>
+                        </div>
+                        <div class="edu-title">
+                          <h4>
+                            Bachelor of Engineering in Computer Engineering
                           </h4>
+                          <span
+                            >Kathmandu University — Graduated March 2022</span
+                          >
                         </div>
-                        <div
-                          id="collapseThree"
-                          class="panel-collapse collapse"
-                          role="tabpanel"
-                          aria-labelledby="headingThree">
-                          <div class="panel-body">
-                            <p>
-                              I completed my higher secondary education from
-                              <strong>Morgan International College</strong> on
-                              2016. I studied <strong>Science </strong> and
-                              passed in Distinction with 75.6% aggregate.
-                            </p>
-                          </div>
-                        </div>
+                        <i class="fa fa-chevron-down toggle-icon"></i>
                       </div>
-                      <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingFour">
-                          <h4 class="panel-title">
-                            <a
-                              class="collapsed"
-                              data-toggle="collapse"
-                              data-parent="#accordion"
-                              href="#collapseFour"
-                              aria-expanded="false"
-                              aria-controls="collapseFour"
-                              >Secondary Level Education</a
-                            >
-                          </h4>
+                      <div id="edu2" class="edu-body collapse">
+                        <p>
+                          Completed
+                          <strong
+                            >Bachelor of Engineering in Computer
+                            Engineering</strong
+                          >
+                          at <strong>Kathmandu University</strong>, gaining a
+                          strong foundation in algorithms, software engineering,
+                          and cloud technologies.
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="edu-item">
+                      <div
+                        class="edu-header"
+                        data-toggle="collapse"
+                        data-target="#edu3">
+                        <div class="edu-icon"><i class="fa fa-book"></i></div>
+                        <div class="edu-title">
+                          <h4>Higher Secondary Education (+2 Science)</h4>
+                          <span>Morgan International College — 2016</span>
                         </div>
-                        <div
-                          id="collapseFour"
-                          class="panel-collapse collapse"
-                          role="tabpanel"
-                          aria-labelledby="headingFour">
-                          <div class="panel-body">
-                            <p>
-                              I completed my secondary level education from
-                              <strong
-                                >Nawalpur Higher Secondary Boarding
-                                School</strong
-                              >. I passed the S.L.C. exam in 2014 with a
-                              Distinction of 87.5%.
-                            </p>
-                          </div>
+                        <i class="fa fa-chevron-down toggle-icon"></i>
+                      </div>
+                      <div id="edu3" class="edu-body collapse">
+                        <p>
+                          Completed <strong>+2 in Science</strong> from
+                          <strong>Morgan International College</strong> with
+                          distinction, securing 75.6% aggregate and developing a
+                          strong interest in computing and mathematics.
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="edu-item">
+                      <div
+                        class="edu-header"
+                        data-toggle="collapse"
+                        data-target="#edu4">
+                        <div class="edu-icon">
+                          <i class="fa fa-pencil-square-o"></i>
                         </div>
+                        <div class="edu-title">
+                          <h4>Secondary Level Education (S.L.C.)</h4>
+                          <span
+                            >Nawalpur Higher Secondary Boarding School —
+                            2014</span
+                          >
+                        </div>
+                        <i class="fa fa-chevron-down toggle-icon"></i>
+                      </div>
+                      <div id="edu4" class="edu-body collapse">
+                        <p>
+                          Completed
+                          <strong>Secondary Level Education</strong> from
+                          <strong
+                            >Nawalpur Higher Secondary Boarding School</strong
+                          >
+                          with distinction, scoring 87.5%.
+                        </p>
                       </div>
                     </div>
                   </div>
