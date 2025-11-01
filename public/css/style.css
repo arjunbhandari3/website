@@ -583,7 +583,7 @@ body.offcanvas .arjun-nav-toggle {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   transition: all 0.3s ease;
   box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
 }
@@ -2010,7 +2010,7 @@ body.offcanvas .arjun-nav-toggle {
 }
 
 .contact .info-item span {
-  width: 100px;
+  width: 100%;
   height: 75px;
   line-height: 75px;
   border-radius: 50%;
